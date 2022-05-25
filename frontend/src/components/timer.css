@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  color: #1b49aa;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 700px;
+  background: rgb(255, 255, 255);
+}
+
+.container h1 {
+  font-size: 2.6rem;
+  margin-bottom: 0.2rem;
+}
+
+.container .labels {
+  list-style: none;
+  display: flex;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  padding: 0.3rem 0.3rem;
+  background-color: #1b49aa;
+}
+
+.active-label {
+  color: #5474ab;
+  background-color: #eefaff;
+}
+
+.timer-container {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.time-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7.5rem;
+  color: #1b49aa;
+  background: #1b49aa;
+  font-size: 3.5rem;
+  box-shadow: 1rem 1.5rem 2rem rgba(0, 0, 0, 0.6);
+}
+
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+button {
+  color: #efefef;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.2rem;
+  border: none;
+  border-radius: 3rem;
+  margin: 0.2rem;
+  background: #1b49aa;
+  min-width: 80px;
+  cursor: pointer;
+}
+
+.button-wrapper button.activve {
+  color: #0c0e1b;
+  background-color: #c9ccea;
+  border: 1px solid #0c0e1b;
+}
+.form-container {
+  text-align: center;
+}
+.input-wrapper {
+  margin: 1.5rem;
+}
+.input-wrapper input {
+  height: 80px;
+  width: 80px;
+  padding: 0.5rem;
+  background-color: #0c0e1b;
+  color: #c9ccea;
+  border: none;
+  border-radius: 18%;
+  margin-right: 0.5rem;
+  margin-left: 6rem;
+  text-align: center;
+  font-size: 23pt;
+}
+
+.wrapper {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-2 {
+  margin-top: 50px;
+  margin-bottom: 80px;
+  max-width: 500px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+  width: 250px;
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+input[type="password"] {
+  width: 250px;
+  margin-bottom: 20px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}

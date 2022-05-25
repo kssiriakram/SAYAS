@@ -1,0 +1,31 @@
+body {
+  width: 95vw;
+  height: 140vh;
+}
+#charts {
+  display: inline-block;
+  width: 600px;
+  height: 600px;
+}
+h2 {
+  position: relative;
+  top: 350px;
+  left: 150px;
+  font-size: 150px;
+}
+.charts {
+  position: relative;
+  bottom: 200px;
+}
+.charts1 {
+  position: relative;
+
+  width: 500px;
+  height: 700px;
+}
+#charts1 {
+  position: absolute;
+  top: 900px;
+  left: 20vw;
+  height: 1000px;
+}
